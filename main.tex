@@ -18,6 +18,8 @@
 
 %Optional abstract
 \begin{abstract}
+This essay explores the famous visualisation created by John Snow to convince the general public that cholera epidemics were caused by water pumps. Through Snow's visualisation, it has influenced the field of GIS, thematic maps, and distributed dot maps. This essay looks into the history of the visualisation, the contribution of the visualisation, and how current research is explored to respect with the visualisation.
+
 \end{abstract}
 
 You will pick a visualisation and write an essay about that visualisation. 
@@ -30,59 +32,48 @@ You will pick a visualisation and write an essay about that visualisation.
 \item What is the current state of research with respect to this visualisation?
 \end{itemize}
 
+\section{Introduction}
+
+The essay explores an influential visualisation created by John Snow in the 18th century known as the Cholera Map. During that time, outbreaks of cholera - a deadly infectious disease spread by contaminated water or food causing victims to be dead in a matter of days. The essay explores the history of the visualisation, how it came to be, the influence and contributions it had on the visualisation field, the questions that it addresses and does not address, and the current state of research with respect to the visualisation. In terms of the current state of research, the visualisation influenced the field of spot maps, and dot distributed maps. This essay will explore this area further in the essay.
+
 \section{Snow's Cholera Map}
 
+John Snow's Cholera Map consisted of a simple structure. Simple road maps were shown in his map to represent the area where he lived, Soho, London, England. Snow represented water pumps as black circles in his map, capitalising all the letters "PUMP". This enabled his intended audience to easily see the pump on the map. Snow recorded the people affected by the epidemic around his neighbourhood, tallying the deaths at each address. He represented each death at an address using horizontal bars. Each bar represented a death, multiple horizontally stacked bars represented multiple deaths. This enabled authorities to easily visualise the area in which most deaths occurred.  
+
+
+\begin{figure}
+\centering
 \includegraphics{snowmap_1854}
+\caption{Caption}
+\label{fig:snow}
+\end{figure}
+
+\begin{figure}
+\centering
 \includegraphics[scale=0.1]{Snow-cholera-map-1}
-
-On it, thin, tiny strokes represent deaths and circles show the locations of water pumps. The message of the map is clear: Deaths cluster around the Broad Street well, which had been poisoned by fecal matter from a sick baby (this was discovered later). John Snow not only drew the map, but he also convinced the local authorities to remove the handle of the water pump, an action that stopped the outbreak. Snow, many have said, changed medicine forever. 
-
-Each black bar represented a death in the neighbourhood \cite{tedtalk}. As you get further away from the pump, the deaths seem to get less and less frequent. So you can see something poisonous emanating out of this pump on the map. It took awhile for the authorities. By 1896, the next outbreak that broke out, the authorities were convinced because of the map and told everybody to start boiling there water. That was the last time that London had seen a cholera outbreak since \cite{tedtalk}. 
-
-It's possible to solve these problems, if we look at the empirical evidence such as the map. ``It's a  map of deaths that ended up creating a whole new way of life, a life that we are enjoying today." 
+\caption{John Snow's Cholera map}
+\label{fig:snow}
+\end{figure}
 
 
+\section{The Background of the Cholera Map}
 
-His work addressed an ongoing medical debate — in what is widely regarded as one of the most important early examples of epidemiology, he clearly linked cholera’s spread to water instead of air. The deaths at each address are indicated by the little horizontal lines, stacked up from the street like a pile of little corpses. Snow has made the map big enough to include the locations of the other water pumps in the vicinity, clearly showing a drop-off in cholera deaths where houses are nearer to a different pump. Visualizing his data allowed Snow to investigate abnormalities in the outbreak. He learned, for example, that the brewery and the workhouse, both near the Broad Street pump, had their own independent water sources and so escaped the outbreak largely unscathed. Edward Tufte, a godfather of information display, analyzes this map in his 1997 book, Visual Explanations. Tufte points out that as a dot map,2 Snow’s visualization is implicitly assuming that the population in the area is uniformly distributed. In other words, a house without any deaths means that the inhabitants of that house successfully avoided cholera, not that the house sits empty. But even with that shortcoming, Tufte praises the map’s usefulness. \cite{blog}
+Cholera outbreaks were known to appear around the 18th century. Cholera is a deadly disease that spreads through contaminated water and food sources. Aggressive vomiting occurs to victims, and they eventually die within 2 days. In the year 1854, the Broad Street cholera outbreak occurred in Soho district of London, England. It was known that around 500 civilians died due to the cholera. During this time, locals thought that cholera was a airborne disease that spread to anyone that comes in contact with the contaminated area. This led to many people fleeing the region during these times of outbreaks. However, a man called John Snow was a skeptic of the miasma theory and did not believe that cholera was an airborne disease caused by "bad air". Instead, Snow believed that cholera was spread through water. Snow, living around this region was able to record the resulting deaths around the neighbourhood to test his hypothesis. Although Snow had previously written several papers regarding Cholera and his hypothesis on the matter, no one believed Snow. After the epidemic, in order to raise awareness and to prevent anymore epidemics from occurring, Snow decided to plot the deaths from around the region on his map. Snow recorded each death as a horizontal bar, stacking multiple horizontal bars together at each address where a death occurred due to the epidemic that had previously occurred. Snow found that his visualisation showed deaths clustered around a water source, giving confidence in his hypothesis. The water source was a pump located on the Broad Street, where most of the highest frequency of deaths occurred. Snow warned authorities and tried to get the tap from the water pump removed. Eventually, authorities removed the water pump and the number of cholera victims decreased dramatically. 
 
+Snow's premise of the map was not for himself, but to the public. Snow had already knew that the water source was the cause from empirical evidence that he collected. In fact, Snow created the map after the epidemic had occurred to convince authorities that the water source was the cause of the epidemic.  
 
-This map that changed the way the world understood cholera. It forced London to realise it needed to build a sewage system to fix itself and end cholera outbreaks. This map makes my top 5 because it was used to convince people of the need for change.
+\section{History of the Distributed Spot Map}
 
-
-In 1854 London was gripped by cholera; many thousands were to die in the ensuing epidemic. Most doctors at the time believed that the disease was caused by foul smelling mist “miasmas” a view contested by Dr John Snow who suspected that contaminated drinking water was the cause. Snow believed that if the disease was caused by air then the incidents of disease would be evenly spread throughout the streets of London, whereas if poisoned water were the culprit, cases would cluster in locations around the source of the contamination. In order to prove his theory he drew a map of Soho marking each case of cholera with a black dot. He also marked each public water pump in the area with an “X”. By analyzing the distribution of black dots in relation to the water pumps, Snow was able to track the origin of outbreak in Soho to Broad Street. Snow immediately advised decomissioning the pump in Broad Street and very quickly the outbreaks of cholera cleared. His map is not only an important historical moment in public health, but also a breakthrough in the visual display of information. By showing abstract medical statistics within a geographic image, a pattern of illness distribution was made visible in a way that pointed to its cause. Today we call such information visualisations Graphic Information Systems (GIS for short).
-
-
-
-
-
-
-
-Steven Johnson, in his book “The Ghost Map” about the London cholera epidemic and efforts to stop it, notes that Snow’s was not the first map to chronicle cholera outbreaks, or even this particular cholera outbreak. “Part of what made Snow’s map groundbreaking was the fact that it wedded state-of-the-art information design to a scientifically valid theory of cholera’s transmission. It was not the mapmaking technique that mattered; it was the underlying science that the map revealed,” Johnson writes. - See more at: http://data-informed.com/7-great-visualizations-history/#sthash.3H6BmjYE.dpuf
-
-
-\section{The History of the Cholera Map}
-In the nineteenth century, cholera was a disease that killed many thousands a year. Today, we know that cholera is caused by a bacteria - Vibrio cholerae, which has been shaped by evolution to spread itself in a devilish manner: It provokes severe vomiting and diarrhea. If its victims live very close to each other and they don't have access to adequate sanitary conditions, it is likely that the fluids they release will contaminate sources of water or food.
-
-Until the 1860s, most scientists were convinced that cholera was caught by breathing the stinky effluuvia that emanated from foul water and soil, or from decaying wastes. This miasma "bad air" theory of disease was based on persistent correlational observations: Contagious maladies hit poor areas harder. 
-
-John Snow hypothesised that cholera was a waterborne disease caused by a germ. He wrote academic papers to make his case, but no one listened to him. The tide shifted when a brutal outbreak in 1854, in which hundreds of Londoners perished within a few weeks, led him to produce his famous map. 
-
-
-Among the earliest examples of disease mapping were
-two spot maps prepared by Valentine Seaman to illustrate
-the distribution of yellow fever in New York
-towards the close of the eighteenth century. Shapter2, in
-his History of the Cholera in Exeter in 1832 included a dot
-map showing the distribution of deaths caused by
-cholera. (Figure 1). \cite{howe1970some}
-
-
+John Snow's map was not the first to represent and visualise the outbreak of a disease. A man called Thomas Shapter was the first to try and visualise the Cholera epidemics to see the cause and effect. In particular, Shapter had published a paper describing the disease first occurring, the effects, and provided interesting sketches in his publication. John Snow who was inspired by his work, being influenced by Shapters work. Snow realised that a spot map would be a useful illustration for his report and for his own book.  
 
 \section{The Impact of Snow's Cholera Map}
+John Snow's cholera map has influenced many different fields and contributed to research. In particular, his visualisation had an impact on the field of Epidemiology, visualising diseases from graphs to recognize patterns in the occurrences. In addition, renditions of Snow's map have been done with dot plots. It has also inspired visualisations such as the thematic map, and distributed dot maps. GIS and the field of Information Design has also been affected by Snow's visualisation. 
 
 \section{The Future of Snow's Cholera Map}
+Snow's map was known as a Spot Map, which conveys information on diseases through visualisation. Dot distribution maps are difficult to visualisation in large areas where the dots are clustered together, or a there is a large frequency. In these cases, it becomes difficult to know the exact number, since counting the dots is tedious, and can lead to inaccuracy. Distributed dot maps have been used in many different fields leading them to evolve. Over the course of time, distributed dot maps had moved to thematic maps, or dot plots etc. These can be considered variations of dot maps. 
 
 \section{Conclusion}
+John Snow's visualisation was novel such that it influenced authorities to believe in his hypothesis. This allowed the discovery of cause and effect, saving lives from epidemics. Although this is one reason, visualise enables users to see trends, patterns, and other important information which may be difficult to see in other means such as tables. With the current trend of distributed dot plots, more visualisation techniques will occur that address the weaknesses of the predecessors and so on. Through visualisation, Snow's map had changed the course of the way we live our lives today and has influenced the way we visualise data, being so influencial.
 
 % \bibliographystyle{IEEEtranN}
 % \bibliographystyle{ieeetr}
